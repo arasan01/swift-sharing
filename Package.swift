@@ -13,6 +13,7 @@ let package = Package(
   products: [
     .library(
       name: "Sharing",
+      type: .static,
       targets: ["Sharing"]
     )
   ],
